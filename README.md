@@ -58,3 +58,4 @@ Partition dashboard to display metrics for both regions: First Order Date, Total
 Conclusion:
 
 The dashboard successfully enables side-by-side comparison of sales between two regions. It provides management with actionable insights into performance, customer engagement, and product sales trends, helping them make informed business decisions and identify areas for improvement.
+🗂 Dataset & Preparation:
