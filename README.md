@@ -1,61 +1,81 @@
 # Comparison-of-Region-Based-on-Sales
- Project Overview:
+ 📝 Project Overview
 
-The project aims to help a leading organization compare sales performance between two regions by creating an interactive dashboard. The dashboard allows management to visualize sales data, identify trends, and make informed decisions to improve performance.
+📌 Goal: Help the organization compare sales performance between two selected regions.
+📊 Create an interactive dashboard for upper management to visualize key metrics and suggest improvements.
 
-Dataset Overview:
+🗂 Datasets
 
-Dataset Used: Sample Superstore
+Sample Superstore Dataset
 
-Description: A sample sales dataset containing transaction-level details for orders, customers, products, and regions.
+Includes Customer Name, Order ID, Product Details, Sales, Region, etc.
 
-Purpose: Provides realistic sales data to analyze and compare regional performance.
+Used for region-wise sales analysis.
 
-Key Attributes Included:
+⚙️ Tools & Technologies
 
-Customer Name – identifies the customer
+🖥 Tool: Tableau (or equivalent BI tool)
 
-Order ID – unique identifier for each order
+🔧 Features used:
 
-Country / Region – used to create a location hierarchy and select regions for comparison
+Parameters
 
-Order Date / First Order Date – tracks the time of purchase
+Calculated Fields
 
-Sales – revenue generated from each order
+Hierarchies
 
-Product Details – number and type of products sold
+Dashboard & Sheet Layout
 
-Project Objectives
+Data Grouping & Organization
 
-Compare sales performance between two selected regions.
+🔄 Project Workflow
 
-Provide insights on total sales, average sales per order, number of customers, number of orders, and products sold.
+Data Preparation
 
-Enable management to make data-driven decisions for operational improvements.
+📁 Select Sample Superstore dataset
 
-Workflow of the Project:
+🧹 Use Group by to organize Customer Name & Order ID
 
-Data Preparation:
+🏷 Create Location hierarchy with Country
 
-Select Sample Superstore dataset
+Parameters & Calculations
 
-Group data by Customer Name and Order ID
+🔹 Parameters:
 
-Create a Location hierarchy using Country
+Primary Region (all regions listed)
 
-Parameter & Calculated Fields Creation:
+Secondary Region (all regions listed)
 
-Parameters for Primary Region and Secondary Region
+✏️ Calculated Fields:
 
-Calculated fields for metrics and First Order Date
+For Primary Region & Secondary Region
 
-Dashboard Design:
+First Order Date
 
-Align all sheets and visualizations
+Dashboard Creation
 
-Partition dashboard to display metrics for both regions: First Order Date, Total Sales, Average Sales per Order, Number of Customers, Number of Orders, Number of Products Sold
+🖼 Align all sheets in a clean layout
 
-Conclusion:
+🔹 Partition the dashboard for Primary & Secondary Regions to display:
 
-The dashboard successfully enables side-by-side comparison of sales between two regions. It provides management with actionable insights into performance, customer engagement, and product sales trends, helping them make informed business decisions and identify areas for improvement.
-🗂 Dataset & Preparation:
+📅 First Order Date
+
+💰 Total Sales
+
+📊 Average Sales per Order
+
+👥 Number of Customers
+
+🛒 Number of Orders
+
+🛍 Number of Products in Sale
+
+✅ Conclusions
+
+Provides clear visual comparison between two regions.
+
+Helps management identify high-performing and underperforming regions.
+
+Facilitates data-driven decisions for sales improvement and strategic planning.
+
+
